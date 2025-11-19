@@ -22,3 +22,13 @@ if ($nota >= 7) {
 
 $nota2 = 8;
 echo $nota2 >= 7 ? "Aluno Aprovado.\n" : "Aluno Reprovado.\n";
+
+$idade = 64;
+
+if ($idade >=18 and $idade < 65) {
+    echo "Voto obrigatório!";
+} elseif (($idade >= 16 && $idade < 18) || $idade >= 65) {
+    echo "Voto facultativo!";
+} else {
+    echo "Você não tem idade para votar!";
+}
